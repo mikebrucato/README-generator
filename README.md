@@ -2,7 +2,7 @@
 
   ## USERNAME
 
-  dfgdfgdfg
+  mikebrucato
 
   ## REPOSITORY
 
@@ -10,28 +10,28 @@
 
   ## EMAIL
 
-  dfgdfgdfgdfg
+  email@example.com
 
   ## TITLE
 
-  dfgdfgdfgdfg
+  readme generator
 
   ## DESCRIPTION
 
-  dfgdfgdfgdfg
+  generates readmes
 
   ## INSTALLATION
 
-  dfgdfgdfg
+  install dependencies and run using node index.js
 
   ## USAGE
 
-  dfgdfgdfgdf
+  if you want to write a readme
 
   ## CONTRIBUTION
 
-  dfgdfgdfgdf
+  look at github
 
   ## LICENSE
 
-  
+  GNU GPLv3

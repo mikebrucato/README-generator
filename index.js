@@ -46,7 +46,7 @@ const questions = [
         message: 'What are the guidelines other developers can follow to contribute to your application?'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Choose a license for your application',
         choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']
@@ -61,7 +61,7 @@ function init() {
             console.log('data', data)
             // function to write README file
             fs.writeFile("README.md", generate(data), function (err) {
-                err ? console.log(err) : console.log('Success!')
+                err ? console.log(err) : console.log('Your Readme was created successfully!')
             });
         })
 }
