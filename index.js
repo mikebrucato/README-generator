@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const generate = require('./generateMarkdown')
+const generate = require('./utils/generateMarkdown')
 const util = require('util')
 
 
@@ -11,47 +11,47 @@ const questions = [
         {
             type: 'input',
             name: 'username',
-            messege: 'What is your Github username?'
+            message: 'What is your Github username?'
         },
         {
             type: 'input',
             name: 'repo',
-            messege: 'What is the name of your Github repository?'
+            message: 'What is the name of your Github repository?'
         },
         {
             type: 'input',
             name: 'email',
-            messege: 'What is your email address?'
+            message: 'What is your email address?'
         },
         {
             type: 'input',
             name: 'title',
-            messege: 'What is the name of your application?'
+            message: 'What is the name of your application?'
         },
         {
             type: 'input',
             name: 'description',
-            messege: 'What is the description of your application?'
+            message: 'What is the description of your application?'
         },
         {
             type: 'input',
             name: 'install',
-            messege: 'Write the steps to install this application'
+            message: 'Write the steps to install this application'
         },
         {
             type: 'input',
             name: 'usage',
-            messege: 'Provide examples of use for your application'
+            message: 'Provide examples of use for your application'
         },
         {
             type: 'input',
             name: 'contribution',
-            messege: 'What are the guidelines other developers can follow to contribute to your application?'
+            message: 'What are the guidelines other developers can follow to contribute to your application?'
         },
         {
             type: 'checkbox',
             name: 'license',
-            messege: 'Choose a license for your application',
+            message: 'Choose a license for your application',
             choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']
         }
 
