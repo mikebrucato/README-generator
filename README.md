@@ -1,37 +1,19 @@
-# undefined
+# README Generator
 
-  ## USERNAME
+# Video Link
 
-  mikebrucato
+https://drive.google.com/file/d/1vJkMtuNqDCGvOrb0QDusGbw_LJbyA2Os/view
 
-  ## REPOSITORY
+# Description
 
-  undefined
+This is a command line application that takes in user input from the command line via the node inquirer library and outputs a README.md file.
 
-  ## EMAIL
+# Technologies Used
 
-  email@example.com
+- Fs
+- Inquirer
+- Node
 
-  ## TITLE
+# Usage
 
-  readme generator
-
-  ## DESCRIPTION
-
-  generates readmes
-
-  ## INSTALLATION
-
-  install dependencies and run using node index.js
-
-  ## USAGE
-
-  if you want to write a readme
-
-  ## CONTRIBUTION
-
-  look at github
-
-  ## LICENSE
-
-  GNU GPLv3
+This application if anyone that wants a quick and easy way to create a professional README.md file.

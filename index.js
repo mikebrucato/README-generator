@@ -1,3 +1,4 @@
+// depedencies
 const inquirer = require('inquirer')
 const fs = require('fs')
 const generate = require('./utils/generateMarkdown')
@@ -66,5 +67,4 @@ function init() {
         })
 }
 
-// function call to initialize program
 init();
